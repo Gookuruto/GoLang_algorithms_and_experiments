@@ -1,8 +1,9 @@
 package main
 
 import (
-	"algorithm/sorting"
 	"fmt"
+
+	"github.com/Gookuruto/GoLang_algorithms_and_experiments/sorting"
 )
 
 func main() {
