@@ -7,7 +7,7 @@ import (
 
 func QuickSort(a []int) {
 	if len(a) < 2 {
-		return a
+		return
 	}
 
 	left, right := 0, len(a)-1
