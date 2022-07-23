@@ -18,6 +18,13 @@ func main() {
 
 	result := sorting.SelectionSort(arr)
 
+	table := []int{0, 11, 2, 4, 3, 50, 41, 41, 11, 2, 2, 2, 41}
+
+	sorting.MergeSort(arr)
+	fmt.Println(arr)
+
+	fmt.Println(table)
+
 	bubble_result := sorting.BubbleSort(arr)
 	fmt.Println(result)
 	fmt.Println(bubble_result)
