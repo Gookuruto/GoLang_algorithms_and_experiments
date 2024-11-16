@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Gookuruto/GoLang_algorithms_and_experiments/sorting"
+	"workspace/sorting"
 )
 
 func TestRadixSort(t *testing.T) {
